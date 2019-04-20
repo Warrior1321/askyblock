@@ -1,8 +1,8 @@
-name: ASkyBlock
+name: CellIsland
 main: com.wasteofplastic.askyblock.ASkyBlock
 version: ${version}
-description: A SkyBlock Plugin
-author: Tastybento
+description: A Cell Plugin
+author: Warrior1321
 depend: [Vault]
 load: startup
 loadbefore: [Multiverse-Core]
@@ -31,7 +31,7 @@ permissions:
             description: Allow teleporting to player island
             default: true
           askyblock.island.create:
-            description: Let the player use the /island command
+            description: Let the player use the /cell command
             default: true
           askyblock.island.info:
             description: Let the player check their island level
@@ -46,7 +46,7 @@ permissions:
             description: Let the player use the /challenges command
             default: true
           askyblock.island.warp:
-            description: Let the player use /island warp to warp to a players island
+            description: Let the player use /cell warp to warp to a players island
             default: true
           askyblock.island.addwarp:
             description: Let the player place a Welcome warp sign
