@@ -9,9 +9,9 @@ loadbefore: [Multiverse-Core]
 commands:
     island:
         description: Main player command
-        aliases: [is, island]
+        aliases: [cell, Cell]
         usage:  |
-             /island help
+             /cell help
     asadmin:
         description: Admin commands
         usage:  |
